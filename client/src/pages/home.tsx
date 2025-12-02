@@ -4,6 +4,7 @@ import { ArrowRight, Frame, Gamepad2, Video, Utensils, Fan, Mail, HardHat } from
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import heroBg from "@assets/generated_images/abstract_geometric_dark_background_with_subtle_lighting.png";
+import logo from "@assets/Gemini_Generated_Image_2s4ewf2s4ewf2s4e-removebg-preview_1764718656941.png";
 
 export default function Home() {
   useEffect(() => {
@@ -69,7 +70,9 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-white/5">
         <div className="container mx-auto px-6 h-20 flex items-center justify-between">
-          <div className="font-display text-2xl font-bold tracking-tighter">OGUN-SARS</div>
+          <div className="font-display text-2xl font-bold tracking-tighter">
+            <img src={logo} alt="Ogun-Sars" className="h-12" />
+          </div>
           <div className="hidden md:flex gap-8 text-sm font-medium text-muted-foreground">
             <a href="#about" className="hover:text-primary transition-colors">About</a>
             <a href="#brands" className="hover:text-primary transition-colors">Our Brands</a>
@@ -211,7 +214,9 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-12 border-t border-white/5 bg-background text-center md:text-left">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="font-display text-xl font-bold tracking-tighter opacity-50">OGUN-SARS</div>
+          <div className="font-display text-xl font-bold tracking-tighter opacity-50">
+            <img src={logo} alt="Ogun-Sars" className="h-12" />
+          </div>
           <div className="text-sm text-muted-foreground">
             &copy; {new Date().getFullYear()} Ogun-Sars Holdings. All rights reserved.
           </div>
