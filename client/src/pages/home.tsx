@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Frame, Gamepad2, Video, Utensils, Fan, Mail } from "lucide-react";
+import { ArrowRight, Frame, Gamepad2, Video, Utensils, Fan, Mail, HardHat } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import heroBg from "@assets/generated_images/abstract_geometric_dark_background_with_subtle_lighting.png";
@@ -40,6 +40,12 @@ export default function Home() {
       description: "Specialized B2B HVAC solutions and commercial climate systems.",
       icon: <Fan className="h-8 w-8 mb-4 text-rose-400" />,
       gradient: "from-rose-900/20 to-slate-900/50"
+    },
+    {
+      name: "Sars",
+      description: "Professional construction contracting and engineering services.",
+      icon: <HardHat className="h-8 w-8 mb-4 text-cyan-400" />,
+      gradient: "from-cyan-900/20 to-slate-900/50"
     }
   ];
 
@@ -146,7 +152,7 @@ export default function Home() {
           <div className="max-w-2xl mb-16">
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">Our Ecosystem</h2>
             <p className="text-lg text-muted-foreground">
-              Five distinct brands. One shared commitment to excellence.
+              Six distinct brands. One shared commitment to excellence.
             </p>
           </div>
 
