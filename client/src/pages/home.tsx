@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Building2, Cpu, Globe, Users, Mail } from "lucide-react";
+import { ArrowRight, Building2, Cpu, Globe, Users, Mail, Rocket } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import heroBg from "@assets/generated_images/abstract_geometric_dark_background_with_subtle_lighting.png";
@@ -34,6 +34,12 @@ export default function Home() {
       description: "Lifestyle and culture redefined for the modern era.",
       icon: <Users className="h-8 w-8 mb-4 text-amber-400" />,
       gradient: "from-amber-900/20 to-slate-900/50"
+    },
+    {
+      name: "Nexvent",
+      description: "Accelerating the future through visionary events and ventures.",
+      icon: <Rocket className="h-8 w-8 mb-4 text-rose-400" />,
+      gradient: "from-rose-900/20 to-slate-900/50"
     }
   ];
 
@@ -140,7 +146,7 @@ export default function Home() {
           <div className="max-w-2xl mb-16">
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">Our Ecosystem</h2>
             <p className="text-lg text-muted-foreground">
-              Four distinct brands. One shared commitment to excellence.
+              Five distinct brands. One shared commitment to excellence.
             </p>
           </div>
 
