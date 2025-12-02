@@ -30,7 +30,7 @@ export default function Home() {
       gradient: "from-purple-900/20 to-slate-900/50"
     },
     {
-      name: "Kof",
+      name: "Köf",
       description: "Innovative fast-food restaurant concept currently in development.",
       icon: <Utensils className="h-8 w-8 mb-4 text-amber-400" />,
       gradient: "from-amber-900/20 to-slate-900/50"
