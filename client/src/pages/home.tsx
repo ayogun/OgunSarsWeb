@@ -68,15 +68,15 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground font-sans selection:bg-primary/20">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-white/5">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
         <div className="container mx-auto px-6 h-20 flex items-center justify-between">
           <div className="font-display text-2xl font-bold tracking-tighter">
             <img src={logo} alt="Ogun-Sars" className="h-12" />
           </div>
-          <div className="hidden md:flex gap-8 text-sm font-medium text-muted-foreground">
-            <a href="#about" className="hover:text-primary transition-colors">About</a>
-            <a href="#brands" className="hover:text-primary transition-colors">Our Brands</a>
-            <a href="mailto:info@ogun-sars.com" className="hover:text-primary transition-colors">Contact</a>
+          <div className="hidden md:flex gap-8 text-sm font-medium text-slate-600">
+            <a href="#about" className="hover:text-slate-900 transition-colors">About</a>
+            <a href="#brands" className="hover:text-slate-900 transition-colors">Our Brands</a>
+            <a href="mailto:info@ogun-sars.com" className="hover:text-slate-900 transition-colors">Contact</a>
           </div>
         </div>
       </nav>
