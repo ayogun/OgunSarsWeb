@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Building2, Cpu, Globe, Users, Mail, Rocket } from "lucide-react";
+import { ArrowRight, Frame, Gamepad2, Video, Utensils, Fan, Mail } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import heroBg from "@assets/generated_images/abstract_geometric_dark_background_with_subtle_lighting.png";
@@ -13,32 +13,32 @@ export default function Home() {
   const brands = [
     {
       name: "PGR",
-      description: "Pioneering growth and resilience in modern markets.",
-      icon: <Building2 className="h-8 w-8 mb-4 text-blue-400" />,
+      description: "Manufacturing innovative framed wall decor designs for collectors.",
+      icon: <Frame className="h-8 w-8 mb-4 text-blue-400" />,
       gradient: "from-blue-900/20 to-slate-900/50"
     },
     {
       name: "GeekCultcha",
-      description: "Empowering the next generation of digital innovators.",
-      icon: <Cpu className="h-8 w-8 mb-4 text-emerald-400" />,
+      description: "E-commerce platform manufacturing and selling exclusive collectible items.",
+      icon: <Gamepad2 className="h-8 w-8 mb-4 text-emerald-400" />,
       gradient: "from-emerald-900/20 to-slate-900/50"
     },
     {
       name: "Siczil",
-      description: "Strategic consulting for complex challenges.",
-      icon: <Globe className="h-8 w-8 mb-4 text-purple-400" />,
+      description: "Women's boutique pioneering live transmission sales for immersive shopping.",
+      icon: <Video className="h-8 w-8 mb-4 text-purple-400" />,
       gradient: "from-purple-900/20 to-slate-900/50"
     },
     {
       name: "Kof",
-      description: "Lifestyle and culture redefined for the modern era.",
-      icon: <Users className="h-8 w-8 mb-4 text-amber-400" />,
+      description: "Innovative fast-food restaurant concept currently in development.",
+      icon: <Utensils className="h-8 w-8 mb-4 text-amber-400" />,
       gradient: "from-amber-900/20 to-slate-900/50"
     },
     {
       name: "Nexvent",
-      description: "Accelerating the future through visionary events and ventures.",
-      icon: <Rocket className="h-8 w-8 mb-4 text-rose-400" />,
+      description: "Specialized B2B HVAC solutions and commercial climate systems.",
+      icon: <Fan className="h-8 w-8 mb-4 text-rose-400" />,
       gradient: "from-rose-900/20 to-slate-900/50"
     }
   ];
