@@ -73,7 +73,7 @@ export default function Home() {
           <div className="hidden md:flex gap-8 text-sm font-medium text-muted-foreground">
             <a href="#about" className="hover:text-primary transition-colors">About</a>
             <a href="#brands" className="hover:text-primary transition-colors">Our Brands</a>
-            <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
+            <a href="mailto:info@ogun-sars.com" className="hover:text-primary transition-colors">Contact</a>
           </div>
         </div>
       </nav>
@@ -115,7 +115,7 @@ export default function Home() {
                 <a href="#brands">Explore Our Portfolio</a>
               </Button>
               <Button variant="outline" size="lg" className="h-12 px-8 text-base border-white/10 hover:bg-white/5" asChild>
-                <a href="#contact">Get in Touch</a>
+                <a href="mailto:info@ogun-sars.com">Get in Touch</a>
               </Button>
             </motion.div>
           </motion.div>
@@ -199,8 +199,10 @@ export default function Home() {
             <p className="text-lg text-muted-foreground mb-10">
               We are always looking for new opportunities and partnerships. Reach out to see how Ogun-Sars can work with you.
             </p>
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 h-14 px-10 text-lg rounded-full">
-              <Mail className="mr-2 h-5 w-5" /> Contact Us
+            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 h-14 px-10 text-lg rounded-full" asChild>
+              <a href="mailto:info@ogun-sars.com">
+                <Mail className="mr-2 h-5 w-5" /> Contact Us
+              </a>
             </Button>
           </motion.div>
         </div>
